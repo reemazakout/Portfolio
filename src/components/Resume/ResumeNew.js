@@ -19,6 +19,9 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        <div style={{ fontSize: "20px", fontWeight: "", padding: "20px" }}>
+          Tap to see the full Resume
+        </div>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
